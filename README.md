@@ -60,8 +60,16 @@ Plots for **Loss** and **Accuracy** across epochs highlight model convergence an
 - Misclassified examples show scattered attention, indicating potential areas for further optimization.  
 
 #### **Examples of CAM**:  
-- Correct classifications emphasize relevant textures and objects in the images.  
+- Correct classifications emphasize relevant textures and objects in the images.
+
+
+![Class 1: GRAD-CAM](./A3/images/cam_class10.png)
+![Class 1: GRAD-CAM](./A3/images/cam_class1.png)
+
 - Misclassified examples display poor focus, leading to incorrect predictions.  
+
+![Class 5 misclassified as 1: GRAD-CAM](./A3/images/miss_cam_class_5_1.png)
+![Class 9 misclassified as 2: GRAD-CAM](./A3/images/miss_cam_class_9_2.png)
 
 ---
 
